@@ -1,9 +1,8 @@
-
 build:
-	hugo --gc --minify
+	yarn run build
 
 dev:
-	hugo server --buildDrafts
+	yarn run dev
 
 fmt:
 	yarn run fmt

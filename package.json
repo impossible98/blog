@@ -3,9 +3,14 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "fmt": "dprint fmt"
+        "build": "hugo --gc --minify",
+        "dev": "hugo server",
+        "fmt": "dprint fmt",
+        "prepare": "husky install"
     },
     "devDependencies": {
-        "dprint": "latest"
+        "dprint": "latest",
+        "hugo-bin": "^0.86.0",
+        "husky": "^7.0.4"
     }
 }
