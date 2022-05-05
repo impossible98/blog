@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Hugo
+/public
+/resources
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+dist/

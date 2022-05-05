@@ -1,0 +1,11 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "fmt": "dprint fmt"
+    },
+    "devDependencies": {
+        "dprint": "latest"
+    }
+}
