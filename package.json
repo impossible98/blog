@@ -5,7 +5,7 @@
     "scripts": {
         "build": "hugo --gc --minify",
         "dev": "hugo server",
-        "fmt": "dprint fmt",
+        "fmt": "dprint fmt ",
         "prepare": "husky install"
     },
     "devDependencies": {
