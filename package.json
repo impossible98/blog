@@ -5,12 +5,12 @@
     "scripts": {
         "build": "hugo --gc --minify",
         "dev": "hugo server",
-        "fmt": "dprint fmt ",
+        "fmt": "dprint fmt --config ./config/dprint.json",
         "prepare": "husky install"
     },
     "devDependencies": {
-        "dprint": "latest",
+        "dprint": "^0.27.1",
         "hugo-bin": "^0.86.0",
-        "husky": "^7.0.4"
+        "husky": "^8.0.1"
     }
 }
